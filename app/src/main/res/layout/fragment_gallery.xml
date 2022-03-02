@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="¿Qué desea ordenar?"/>
+    <CheckBox
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:id="@+id/hamburguesa"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hamburguesa" />
+    <CheckBox
+        android:id="@+id/pizza"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="Pizza" />
+    <CheckBox
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:id="@+id/refresco"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresco" />
+    <CheckBox
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:id="@+id/papas"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papas" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/agregar"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Agregar"
+        android:layout_marginLeft="160dp"/>
+</LinearLayout>
